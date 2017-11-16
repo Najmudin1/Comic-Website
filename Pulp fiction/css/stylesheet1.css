@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 {
+    color: #990000;
+    display: flex;
+	justify-content: center;
+	font-size:30px;
+	font-family:arial;
+	
+	
+}
+p{
+text:arial;
+color:white;
+font-size:30px;
+
+
+}
+
+
+
+
+body{
+	background-color:grey;
+     width:100%;
+	 height:auto;
+}
+
+.main-nav {
+	width: 100%;
+
+
+}
+
+nav ul  {
+   
+	 list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+	
+	
+}
+nav ul li {
+	float: left;
+	padding: 5px 125px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+	font-size:14px;
+	font-family:arial;
+    text-align: center;
+	padding: 12px 20.47px;
+    text-decoration: none;
+	padding-left: 20px;
+	font-weight:bold;
+	padding-right: 20px;*/
+	
+		
+}
+
+/* Change the link Color  */
+nav ul li a:hover {
+    background-color: #757575 ;
+}
+
+
+
+.main-para {
+	color: White;
+	font-size:16px;
+	font-family: arial;
+}
+
+
+.footer {
+	display: flex;
+	justify-content: center;
+	bottom: 0;
+	background-color: red;
+	width: 100%;
+	font-size:14px;
+	font-family:arial;
+	position:absolute;
+}
+
+#content {
+	background-color: #dedede;
+	position: absolute;
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;	
+}
+
+#main-content-area {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	
+}
+.iframe {
+width:40%; 
+height:40%;
+margin-left: 30%;
+margin-right: 30%;
+}
+#buttons{
+margin-left:50%;
+width:10%;
+height:30px;
+
+
+}
+#comics img{
+Width:80%;
+height:700px;
+margin-left:10%;
+margin-right:10%;
+}
+.Folders img{
+
+width:10%;
+height:10%;
+
+}
+.Folders ul{
+
+list-style-type: none;
+
+}
+.Folders ul li{
+
+float:left;
+margin:1%;
+}
+.Folders ul li a{
+
+display:block;
+text-align: center;
+text-decoration: none;
+
+}
+
+
+
+
+
+

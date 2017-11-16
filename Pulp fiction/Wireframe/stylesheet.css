@@ -1,0 +1,15 @@
+p {
+text-align:center;
+}
+li{
+display:inline;
+}
+ul {
+text-align:center;}
+a {
+text-decoration:none;
+padding:0 50px;
+}
+footer{
+position:absolute;
+bottom:0px;}

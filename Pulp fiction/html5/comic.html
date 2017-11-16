@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<div id="wrapper">
+	</div>
+	<link id="mainCss" rel="Stylesheet" type="text/css" href="../css/stylesheet1.css">
+
+	<title>comic</title>
+	<script src="../js/cssSwitch.js"></script>
+	</head>
+	<body>
+
+<div id="content">	
+
+	<h1> Pulp Fiction</h1>
+
+
+<nav class="main-nav">
+	<ul>
+	<li><a href="Homepage.html">Homepage</a></li>
+	<li><a href="comic.html">Comic Book</a></li>
+	<li><a href="Documentation.html">Documentation</a></li>
+	<li><a href="sitemap.html">SiteMap</a></li>
+	</ul>
+</nav>
+
+<div id="main-content-area">
+	 <article class="main-para"> 
+	     <div class="w3-content w3-display-container">
+		 <div id="comics">
+  <img class="mySlides" src="..\Photoshop/Photoshopped/1.jpg" >
+  <img class="mySlides" src="..\Photoshop/Photoshopped/2.jpg" >
+  <img class="mySlides" src="..\Photoshop/Photoshopped/3.jpg" >
+  <img class="mySlides" src="..\Photoshop/Photoshopped/4.jpg" >
+  </div>
+<div id=buttons> 
+  <button onclick="plusDivs(-1)">Back</a>
+  <button onclick="plusDivs(1)">Next</a>
+  </div>
+</div>
+
+<script>
+//start with image 1
+var slideIndex = 1;
+// it calls the following function
+showDivs(slideIndex);
+// this is a function for the buttons
+function plusDivs(n) {
+//display the slide by the index received from the button
+  showDivs(slideIndex += n);
+}
+//display image
+function showDivs(n) {
+// variable to store no of images
+  var i;
+  //create an array of images
+  var x = document.getElementsByClassName("mySlides");
+  // if the index is greater than slides length display image one
+  if (n > x.length) {slideIndex = 1} 
+//if the index is less than slides length display last image  
+  if (n < 1) {slideIndex = x.length}
+  //hide all the slides
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+    // display the image with current index
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+	
+	</article>
+	<button onclick="SwitchCss()">Click here to change to style</button>
+	<button onclick="OrignalCss()">Click here to change to the original style</button>
+	
+	
+	
+
+
+</div>
+
+<footer class="footer"> &#9400; Created By Najmudin </footer>
+
+</div>
+	</body>
+</html>
